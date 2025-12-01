@@ -94,7 +94,7 @@ const GamingHouse = () => {
             Train With The <span className="text-gradient-cyber">Best</span>
           </h3>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our gaming house isn't just a place to play—it's where we create content, build strategies, 
+            Our gaming house isn't just a place to play, it's where we create content, build strategies, 
             and forge the chemistry that makes us unstoppable. This is where champions live, train, and evolve together.
           </p>
         </div>

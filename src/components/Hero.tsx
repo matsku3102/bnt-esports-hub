@@ -42,7 +42,7 @@ const Hero = () => {
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            A rising force in competitive gaming—built on passion, discipline, and the relentless pursuit of excellence.
+            A rising force in competitive gaming, built on passion, discipline, and the relentless pursuit of excellence.
           </p>
 
           {/* CTA Buttons */}

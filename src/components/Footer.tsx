@@ -21,7 +21,7 @@ const Footer = () => {
               <span className="text-gradient-cyber">BNT</span>
             </h3>
             <p className="text-muted-foreground">
-              Built Not Told—a team defined by action, powered by passion, and ready to shape the future of esports.
+              A team defined by action, powered by passion, and ready to shape the future of esports.
             </p>
           </div>
 

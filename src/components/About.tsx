@@ -14,7 +14,7 @@ const values = [
   {
     icon: Trophy,
     title: "Discipline",
-    description: "Success isn't given—it's earned through countless hours of dedication, training, and sacrifice.",
+    description: "Success isn't given, it's earned through countless hours of dedication, training, and sacrifice.",
   },
   {
     icon: Zap,
@@ -45,7 +45,7 @@ const About = () => {
             <div className="absolute bottom-0 left-0 w-32 h-32 bg-secondary/10 blur-3xl" />
             
             <p className="text-lg md:text-xl leading-relaxed text-foreground/90 relative z-10">
-              <span className="text-primary font-bold">BNT Esports</span> is more than a roster—it's a{" "}
+              <span className="text-primary font-bold">BNT Esports</span> is more than a roster, it's a{" "}
               <span className="text-secondary font-semibold">community</span>, a{" "}
               <span className="text-secondary font-semibold">brand</span>, and a{" "}
               <span className="text-secondary font-semibold">movement</span>. We're committed to discovering top-tier talent 
