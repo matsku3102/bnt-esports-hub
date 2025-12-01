@@ -2,49 +2,55 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { ShoppingCart } from "lucide-react";
 import Footer from "@/components/Footer";
+import jerseyLongImg from "@/assets/merch/BNTshirt.jpg";
+import jerseyShortImg from "@/assets/merch/BNTtee.jpg";
+import hoodie from "@/assets/merch/BNThoodie.jpg";
+import mousepad from "@/assets/merch/BNTmousepad.jpg";
+import cap from "@/assets/merch/BNTcap.jpg";
+import poster from "@/assets/merch/BNTposter.jpg";
 
 const merchItems = [
   {
     id: 1,
-    name: "BNT Jersey",
-    description: "Official team jersey with moisture-wicking fabric",
-    price: "$79.99",
-    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80",
+    name: "BNT Long-sleeve Jersey",
+    description: "Official long-sleeve team jersey with moisture-wicking fabric",
+    price: "$59.99",
+    image: jerseyLongImg,
   },
   {
     id: 2,
     name: "BNT Hoodie",
     description: "Premium cotton blend hoodie with embroidered logo",
-    price: "$59.99",
-    image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80",
+    price: "$79.99",
+    image: hoodie,
   },
   {
     id: 3,
     name: "BNT Cap",
     description: "Adjustable snapback with 3D embroidered logo",
     price: "$29.99",
-    image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&q=80",
+    image: cap,
   },
   {
     id: 4,
     name: "BNT Mousepad",
     description: "Extended gaming mousepad with anti-slip base",
     price: "$24.99",
-    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=500&q=80",
+    image: mousepad,
   },
   {
     id: 5,
-    name: "BNT T-Shirt",
-    description: "Comfortable cotton tee with screen-printed design",
+    name: "BNT Short-sleeve Jersey",
+    description: "Official short-sleeve team jersey with moisture-wicking fabric",
     price: "$34.99",
-    image: "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&q=80",
+    image: jerseyShortImg,
   },
   {
     id: 6,
     name: "BNT Poster Set",
     description: "Set of 3 high-quality team posters",
     price: "$19.99",
-    image: "https://images.unsplash.com/photo-1567696911980-2eed69a46042?w=500&q=80",
+    image: poster,
   },
 ];
 
