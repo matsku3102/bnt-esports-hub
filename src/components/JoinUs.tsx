@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const requirements = [
   "Exceptional skill in your game",
@@ -10,6 +11,8 @@ const requirements = [
 ];
 
 const JoinUs = () => {
+  const navigate = useNavigate();
+  
   return (
     <section id="join" className="py-24 px-4 relative overflow-hidden">
       {/* Dynamic Background */}
@@ -76,6 +79,7 @@ const JoinUs = () => {
               <Button 
                 size="lg"
                 className="group bg-primary hover:bg-primary/90 text-primary-foreground font-display text-lg px-8 py-6 glow-primary transition-all duration-300 hover:scale-105"
+                onClick={() => window.open('mailto:join@bntesports.com', '_blank')}
               >
                 Apply Now
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -84,6 +88,7 @@ const JoinUs = () => {
                 size="lg"
                 variant="outline"
                 className="group border-2 border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground font-display text-lg px-8 py-6 transition-all duration-300"
+                onClick={() => navigate('/events')}
               >
                 Learn More
               </Button>
