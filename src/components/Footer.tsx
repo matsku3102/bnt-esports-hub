@@ -1,10 +1,10 @@
 import { Twitter, Youtube, Instagram, Twitch, Mail } from "lucide-react";
 
 const socialLinks = [
-  { icon: Twitter, label: "Twitter", href: "#" },
-  { icon: Youtube, label: "YouTube", href: "#" },
-  { icon: Instagram, label: "Instagram", href: "#" },
-  { icon: Twitch, label: "Twitch", href: "#" },
+  //{ icon: Twitter, label: "Twitter", href: "#" },
+  //{ icon: Youtube, label: "YouTube", href: "#" },
+  { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/bnt_esports_/" },
+  //{ icon: Twitch, label: "Twitch", href: "#" },
 ];
 
 const Footer = () => {
